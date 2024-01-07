@@ -1,0 +1,28 @@
+.card {
+  background-color: aquamarine;
+  display: flex;
+  padding: 10px;
+}
+
+.left-right-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#slider-content {
+  display: flex;
+  width: 1200px;
+  overflow: scroll;
+}
+#slider-content::-webkit-scrollbar {
+  display: none;
+}
+
+.card img {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 250px;
+  height: 200px;
+}
